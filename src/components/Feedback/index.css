@@ -1,0 +1,30 @@
+.container {
+  background-image: linear-gradient(to right, #ffeeee, #ffc0bb);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.content-container {
+  max-width: 50%;
+  text-align: center;
+  background-color: white;
+  border-radius: 10px;
+  border-width: 0;
+  padding: 20px;
+}
+.heading {
+  font-size: 24px;
+}
+.icon {
+  width: 60px;
+  height: 60px;
+  cursor: pointer;
+}
+.icon-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+}
